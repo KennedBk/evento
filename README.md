@@ -127,8 +127,8 @@
 
             emailjs.send("service_2ifod2v", "template_3c0aqnj", templateParams)
                 .then(function(response) {
-                    alert('Email enviado com sucesso!');
-                    console.log('EmailJS response:', response);
+                    // Redirecionar para o link do Instagram
+                    window.location.href = "https://instagram.com/eukenedybr";
                 }, function(error) {
                     alert('Falha ao enviar email.', error);
                     console.log('EmailJS error:', error);
